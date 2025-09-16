@@ -1,3 +1,6 @@
+# Force R file as Other language
+*.R linguist-detectable=true linguist-language=Other
+
 # Text files as Other
 *.txt linguist-detectable=true linguist-language=Other
 *.config linguist-detectable=true linguist-language=Other
