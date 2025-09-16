@@ -1,8 +1,8 @@
 *.pbix linguist-detectable=true
-*.pbix linguist-language=Text
+*.pbix linguist-language=YAML
 
 *.xlsx linguist-detectable=true  
-*.xlsx linguist-language=Text
+*.xlsx linguist-language=YAML
 
 README.md linguist-documentation=true
 
