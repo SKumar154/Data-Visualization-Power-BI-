@@ -1,12 +1,12 @@
 # Force config file to be detected as Other
-   *.config linguist-detectable=true linguist-language=Other
-   
-   # Mark binary files as Other
-   *.pbix linguist-detectable=true linguist-language=Other
-   *.xlsx linguist-detectable=true linguist-language=Other
-   
-   # Documentation files
-   *.md linguist-documentation=true
-   
-   # Vendor image directories
-   images_powerbi_project/* linguist-vendored=true
+*.config linguist-detectable=true linguist-language=Other
+
+# Mark binary files as Other
+*.pbix linguist-detectable=true linguist-language=Other
+*.xlsx linguist-detectable=true linguist-language=Other
+
+# Documentation files
+*.md linguist-documentation=true
+
+# Vendor image directories
+images_powerbi_project/* linguist-vendored=true
