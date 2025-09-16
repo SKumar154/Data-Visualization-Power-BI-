@@ -1,1 +1,9 @@
-* linguist-language=Other
+# Power BI and Excel files should be treated as "Other" language
+*.pbix linguist-detectable=true linguist-language=Other
+*.xlsx linguist-detectable=true linguist-language=Other
+
+# Markdown files are documentation
+*.md linguist-documentation=true
+
+# Image folders are typically not counted for language stats
+images_powerbi_project/* linguist-vendored=true
