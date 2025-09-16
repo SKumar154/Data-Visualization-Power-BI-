@@ -40,7 +40,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 **Visualization Type:** Card Visual  
 **Purpose:** Shows the scale and credibility of the survey data
 
-![Survey Count](images/survey_count.png)
+![User Count](images_powerbi_project/user_count_pic.png)
 
 ---
 
@@ -50,7 +50,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 **Visualization Type:** Card Visual  
 **Purpose:** Provides demographic context for salary and career insights
 
-![Average Age](images/average_age.png)
+![Average Age](images_powerbi_project/avg_age_pic.png)
 
 ---
 
@@ -67,7 +67,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 - **Database Developer** – $33.20k
 - **Students/Job Seekers** – $26.58k (Entry level)
 
-![Salary by Job Title](images/salary_by_role.png)
+![Average Salary by Job Title](images_powerbi_project/avg_salary_pic.png)
 
 ---
 
@@ -78,7 +78,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 **Interactive Feature:** Selecting any country updates the entire dashboard  
 **Coverage:** India, United States, United Kingdom, Canada, Other countries
 
-![Country Analysis](images/country_treemap.png)
+![Countries](images_powerbi_project/country_pic.png)
 
 ---
 
@@ -88,7 +88,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 **Visualization Type:** Gauge Chart  
 **Purpose:** Assesses overall salary satisfaction across the industry
 
-![Salary Satisfaction](images/salary_happiness.png)
+![Salary Satisfaction](images_powerbi_project/happy_with_salary_pic.png)
 
 ---
 
@@ -98,7 +98,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 **Visualization Type:** Gauge Chart  
 **Purpose:** Provides insights into job quality beyond compensation
 
-![Work-Life Balance](images/worklife_balance.png)
+![Worklife Balance](images_powerbi_project/happy_with_worklife_balance_pic.png)
 
 ---
 
@@ -114,7 +114,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 - **JavaScript** – 6 users  
 - **Java** – 1 user
 
-![Programming Languages](images/programming_languages.png)
+![Favorite Programming Language](images_powerbi_project/language_pic.png)
 
 ---
 
@@ -129,7 +129,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 - **Very difficult** – 6.98%
 - **Very easy** – 4.29%
 
-![Job Difficulty](images/job_difficulty.png)
+![Difficulty in Career](images_powerbi_project/difficulty_range_pic.png)
 
 ---
 
@@ -143,7 +143,7 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 - **Responsive design** for different screen sizes
 - **Professional color scheme** and branding
 
-![Full Dashboard](images/full_dashboard.png)
+![Entire Power BI Project](images_powerbi_project/entire_project_pic.png)
 
 ---
 
@@ -194,15 +194,15 @@ An **interactive Power BI dashboard** analyzing survey responses from **600+ dat
 data_jobs_survey_powerbi/
 ├── 📊 Data_Jobs_Survey_Dashboard.pbix    # Main Power BI file
 ├── 📈 images/                            # Dashboard screenshots
-│   ├── survey_count.png
-│   ├── average_age.png
-│   ├── salary_by_role.png
-│   ├── country_treemap.png
-│   ├── salary_happiness.png
-│   ├── worklife_balance.png
-│   ├── programming_languages.png
-│   ├── job_difficulty.png
-│   └── full_dashboard.png
+│   ├── user_count_pic.png
+│   ├── avg_age_pic.png
+│   ├── avg_salary_pic.png
+│   ├── country_pic.png
+│   ├── happy_with_salary_pic.png
+│   ├── happy_with_worklife_balance_pic.png
+│   ├── language_pic.png
+│   ├── difficulty_range_pic.png
+│   └── entire_project_pic.png
 ├── 📋 survey_data.xlsx                   # Source dataset (optional)
 ├── .gitattributes                        # GitHub language detection
 └── 📖 README.md                          # This documentation
