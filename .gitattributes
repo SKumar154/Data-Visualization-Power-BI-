@@ -1,2 +1,9 @@
-*.sql linguist-detectable=true
-*.sql linguist-language=Other
+*.pbix linguist-detectable=true
+*.pbix linguist-language=Text
+
+*.xlsx linguist-detectable=true  
+*.xlsx linguist-language=Text
+
+README.md linguist-documentation=true
+
+images_powerbi_project/* linguist-vendored=true
