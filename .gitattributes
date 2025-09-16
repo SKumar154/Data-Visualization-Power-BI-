@@ -1,9 +1,15 @@
-*.pbix linguist-detectable=true
-*.pbix linguist-language=YAML
+# Force these file types to be detectable
+*.config linguist-detectable=true
+*.env linguist-detectable=true  
+*.properties linguist-detectable=true
+*.spec linguist-detectable=true
 
-*.xlsx linguist-detectable=true  
-*.xlsx linguist-language=YAML
+# Documentation
+*.md linguist-documentation=true
 
-README.md linguist-documentation=true
+# Binary files (GitHub might ignore these anyway)
+*.pbix binary
+*.xlsx binary
 
+# Images
 images_powerbi_project/* linguist-vendored=true
