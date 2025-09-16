@@ -1,12 +1,12 @@
 # Mark binary files as detectable and set language
-*.pbix linguist-detectable=true linguist-language=Other
-*.xlsx linguist-detectable=true linguist-language=Other
+   *.pbix linguist-detectable=true linguist-language=Other
+   *.xlsx linguist-detectable=true linguist-language=Other
 
-# Keep Python file minimal weight
-placeholder.py linguist-detectable=true
+   # Minimize Python file weight or exclude it
+   placeholder.py linguist-documentation=true
 
-# Documentation files
-*.md linguist-documentation=true
+   # Documentation files
+   *.md linguist-documentation=true
 
-# Vendor/ignore image directories
-images_powerbi_project/* linguist-vendored=true
+   # Vendor/ignore image directories
+   images_powerbi_project/* linguist-vendored=true
