@@ -1,17 +1,9 @@
-# Force R file as Other language - MUST BE FIRST
-*.R linguist-detectable=true
-*.R linguist-language=Other
+*.pbix linguist-detectable=true
+*.pbix linguist-language=Other
 
-# Text files as Other
-*.txt linguist-detectable=true linguist-language=Other
-*.config linguist-detectable=true linguist-language=Other
+*.xlsx linguist-detectable=true
+*.xlsx linguist-language=Other
 
-# Binary files as Other  
-*.pbix linguist-detectable=true linguist-language=Other
-*.xlsx linguist-detectable=true linguist-language=Other
-
-# Documentation
 *.md linguist-documentation=true
 
-# Images
 images_powerbi_project/* linguist-vendored=true
