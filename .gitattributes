@@ -3,7 +3,7 @@
 *.xlsx linguist-detectable=true linguist-language=Other
 
 # Keep Python file minimal weight
-placeholder.py linguist-detectable=true
+placeholder.py linguist-detectable=false
 
 # Documentation files
 *.md linguist-documentation=true
