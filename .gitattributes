@@ -1,5 +1,12 @@
+*.sql linguist-detectable=true
+*.sql linguist-language=Other
+
 *.pbix linguist-detectable=true
 *.pbix linguist-language=Other
 
 *.xlsx linguist-detectable=true
 *.xlsx linguist-language=Other
+
+*.md linguist-documentation=true
+
+images_powerbi_project/* linguist-vendored=true
