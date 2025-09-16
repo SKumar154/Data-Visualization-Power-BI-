@@ -1,4 +1,5 @@
 # Force R file as Other language - MUST BE FIRST
+*.R linguist-detectable=true
 *.R linguist-language=Other
 
 # Text files as Other
