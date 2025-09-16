@@ -1,9 +1,10 @@
-# Force markdown files as Other
-*.md linguist-detectable=true linguist-language=Other
+# Make README documentation (excluded from language stats)
+README.md linguist-documentation=true
 
-# Binary files as Other
+# Force detection of project files as Other
 *.pbix linguist-detectable=true linguist-language=Other
 *.xlsx linguist-detectable=true linguist-language=Other
+project-summary.md linguist-detectable=true linguist-language=Other
 
 # Images
 images_powerbi_project/* linguist-vendored=true
