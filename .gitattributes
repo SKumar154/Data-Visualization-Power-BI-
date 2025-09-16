@@ -1,9 +1,12 @@
-# Power BI and Excel files should be treated as "Other" language
+# Mark binary files as detectable and set language
 *.pbix linguist-detectable=true linguist-language=Other
 *.xlsx linguist-detectable=true linguist-language=Other
 
-# Markdown files are documentation
+# Keep Python file minimal weight
+placeholder.py linguist-detectable=true
+
+# Documentation files
 *.md linguist-documentation=true
 
-# Image folders are typically not counted for language stats
+# Vendor/ignore image directories
 images_powerbi_project/* linguist-vendored=true
