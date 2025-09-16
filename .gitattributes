@@ -3,7 +3,3 @@
 
 *.xlsx linguist-detectable=true
 *.xlsx linguist-language=Other
-
-*.md linguist-documentation=true
-
-images_powerbi_project/* linguist-vendored=true
